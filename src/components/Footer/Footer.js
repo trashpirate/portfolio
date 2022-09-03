@@ -9,26 +9,20 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:111-111-1111">111-111-1111</LinkItem>
-        </LinkColumn>
-        <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@email.com">contact@email.com</LinkItem>
+          <LinkItem href="mailto:nadinaozweifel@gmail.com">nadinaozweifel@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
-        <CompanyContainer>
-          <Slogan>Innovating one project at one time</Slogan>
-        </CompanyContainer>
+       
         <SocialContainer>
-          <SocialIcons href="https://github.com">
+          <SocialIcons href="https://github.com/trashpirate">
             <AiFillGithub size="3rem"/>
           </SocialIcons>
-          <SocialIcons href="https://linkedin.com">
+          <SocialIcons href="https://www.linkedin.com/in/nadina-zweifel-b1696878/">
             <AiFillLinkedin size="3rem"/>
           </SocialIcons>
-          <SocialIcons href="https://twitter.com">
+          <SocialIcons href="https://twitter.com/nadinazweifel">
             <AiFillTwitterCircle size="3rem"/>
           </SocialIcons>
         </SocialContainer>

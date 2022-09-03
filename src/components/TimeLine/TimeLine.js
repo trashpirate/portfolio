@@ -8,6 +8,7 @@ import {
   CarouselItem,
   CarouselItemImg,
   CarouselItemText,
+  CarouselItemTextItalic,
   CarouselItemTitle,
   CarouselMobileScrollNode,
 } from "./TimeLineStyles";
@@ -78,34 +79,9 @@ const Timeline = () => {
         data analysis and discover my great interest in computational problems.
         My most recent research focused on simulation and modeling as well as
         machine learning.
-        <b />
-        I recently graduated with a PhD in Biomedical Engineering from
-        Northwestern University. Under the mentorship of Dr. Mitra Hartmann, I
-        studied sensory processing in the rat vibrissal (whisker) system, one of
-        the most commonly used models to study how the brain encodes and
-        processes somatosensory information.
-        <b />
-        Most of my work focused on the design and development of a simulation
-        framework <a href="https://github.com/trashpirate">
-          WHISKiT Physics
-        </a>{" "}
-        to simulate the full vibrissotactile input to the rat whiskers system,
-        i.e., the mechanical signals generated in the follicle of each whisker
-        in response to contact with an external object. Combining the WHISKiT
-        Physics simulator with other computational approaches and machine
-        learning, I investigated how the environmental structure shapes the
-        sensory input and how that might affect early-stage neural processing.
-        <b />
-        To better understand the statistics of tactile environments I collected
-        data from three-dimensional objects. A constructed a dataset that
-        included shape data from natural and human-made objects and analyzed
-        their higher-order statistics using Independent Component Analysis
-        (ICA). Our work shows that applying efficient coding as implemented by
-        ICA on 3D shape data reveals similar basis functions similar to those
-        found in images. With a simple neural model we show that these basis
-        functions are related to filters that are closely resembling receptive
-        fields in the primary somatosensory cortex.
-        <b />
+        <br/>
+        <br/>
+        <a href="public/cv_nadinaZweifel_general.pdf" target="blank">Curriculum Vitae</a>
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -154,6 +130,8 @@ const Timeline = () => {
                   </defs>
                 </CarouselItemImg>
                 <CarouselItemText>{item.text}</CarouselItemText>
+                <br/>
+                <CarouselItemTextItalic>{item.school}</CarouselItemTextItalic>
               </CarouselItem>
             </CarouselMobileScrollNode>
           ))}

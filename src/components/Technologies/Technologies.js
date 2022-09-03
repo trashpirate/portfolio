@@ -1,5 +1,7 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { BsClipboardData } from 'react-icons/bs';
+import { BiLineChart } from 'react-icons/bi';
+import { GiMeshNetwork } from 'react-icons/gi';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -7,40 +9,43 @@ const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider/>
       <br/>
-      <SectionTitle>Technologies</SectionTitle>
+      <SectionTitle>Skills</SectionTitle>
       <SectionText>
-        I've worked with a range of technologies in the web development world. From Back-end to Front-end and Design.
+        I've worked with a range of tools and programming languages for data analysis, data visualization, signal processing, and machine learning.
       </SectionText>
       <List>
         <ListItem>
-          <DiReact size="3rem"/>
+          <BsClipboardData size="4rem"/>
+          <br/>
           <ListContainer>
-            <ListTitle>Fornt-End</ListTitle>
+            <ListTitle>Data Analysis</ListTitle>
             <ListParagraph>
               Experience with <br/>
-              React.js
+              Matlab libraries as well as SciPy and Pandas. 
             </ListParagraph>
           </ListContainer>
         </ListItem>
 
         <ListItem>
-          <DiFirebase size="3rem"/>
+          <BiLineChart size="4rem"/>
+          <br/>
           <ListContainer>
-            <ListTitle>Back-End</ListTitle>
+            <ListTitle>Data Visualization</ListTitle>
             <ListParagraph>
               Experience with <br/>
-              Node and Databases
+              Seaborn, Matplotlib, and Illustrator. 
             </ListParagraph>
           </ListContainer>
         </ListItem>
 
         <ListItem>
-          <DiZend size="3rem"/>
+          <GiMeshNetwork size="4rem"/>
+          <br/>
           <ListContainer>
-            <ListTitle>UI/UX</ListTitle>
+            <ListTitle>Machine Learning</ListTitle>
             <ListParagraph>
               Experience with <br/>
-              Tools like Figma
+              Tensorflow/Keras, PyTorch, and Scikit-Learn
             </ListParagraph>
           </ListContainer>
         </ListItem>

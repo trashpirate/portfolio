@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
+import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, CardReadMore } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+
+const ReadMore = ({ children }) => {
+  const text = children;
+  const [isReadMore, setIsReadMore] = useState(true);
+  const toggleReadMore = () => {
+    setIsReadMore(!isReadMore);
+  };
+  return (
+    <CardInfo>
+      {isReadMore ? [text.slice(0, 300),"..."] : text}
+      <CardReadMore onClick={toggleReadMore}>
+        {isReadMore ? [<br/>,"Read more"] : [<br/>,"Show less"]}
+      </CardReadMore>
+    </CardInfo>
+  );
+};
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -16,8 +32,11 @@ const Projects = () => (
                 <HeaderThree title>{title}</HeaderThree>
                 <Hr/>
               </TitleContent>
-              <CardInfo>{description}</CardInfo>
+              <CardInfo>
+                <ReadMore>{description}</ReadMore>
+              </CardInfo>
               <div>
+                <br/>
                 <TitleContent>Stack</TitleContent>
                 <TagList>
                   {tags.map((tag,i)=>(

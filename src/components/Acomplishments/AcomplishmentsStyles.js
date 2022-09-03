@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const Boxes = styled.div`
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   margin: 24px 0 40px;
 
@@ -46,21 +46,21 @@ export const Box = styled.div`
     }
   }
 `
-export const BoxNum = styled.h5`
+export const BoxTitle = styled.h5`
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 40px;
   letter-spacing: 0.01em;
   color: #FFFFFF;
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
-    font-size: 28px;
+    font-size: 18px;
     line-height: 32px;
   }
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 24px;
+    font-size: 16px;
     line-height: 26px;
 }
 `

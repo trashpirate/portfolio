@@ -127,3 +127,9 @@ border-radius: 50px;
     
   }
 `
+
+export const Img = styled.img`
+  width: 4rem;
+  height: auto;
+  padding: 0rem 1rem 0rem 0rem;
+`

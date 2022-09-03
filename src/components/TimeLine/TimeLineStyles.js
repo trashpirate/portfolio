@@ -117,6 +117,27 @@ export const CarouselItemText = styled.p`
     padding-right: 0;
   }
 `
+
+export const CarouselItemTextItalic = styled.p`
+  font-style: italic;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.75);
+  padding-right: 16px;
+
+  @media ${props => props.theme.breakpoints.md} {
+    font-size: 12px;
+    line-height: 18px;
+    padding-right: 32px;
+  }
+  @media ${props => props.theme.breakpoints.sm} {
+    font-size: 10px;
+    line-height: 16px;
+    padding-right: 0;
+  }
+`
+
 export const CarouselButtons = styled.div`
   width: 288px;
 
