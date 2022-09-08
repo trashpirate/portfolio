@@ -36,14 +36,14 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-
+  font-weight: bold;
 `;
 
 
 export const HeaderThree = styled.h4`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color: #e60000;
   padding: .5rem 0;
   margin: .5rem 2rem;
   font-size: ${(props) => props.title ? '2rem' : '1rem'};
@@ -88,7 +88,6 @@ export const CardReadMore = styled.span`
   font-style: italic;
   line-height: 24px;
   cursor: pointer;
-}
 `;
 
 
@@ -103,12 +102,13 @@ export const UtilityList = styled.ul`
 export const ExternalLinks = styled.a`
 color:#d4c0c0;
 font-size: 1.6rem;
+font-weight: 600;
 padding:1rem 1.5rem;
-background: #6b3030;
+background: #990000;
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: #ee0000;
 
 }
 `;

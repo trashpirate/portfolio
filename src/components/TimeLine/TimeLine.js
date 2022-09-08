@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+// import pdf from "../../../public/cv_nadinaZweifel_general.pdf";
 
 import {
   CarouselButton,
@@ -17,6 +18,7 @@ import {
   SectionDivider,
   SectionText,
   SectionTitle,
+  FileLink,
 } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
 import { TitleContent } from "../Projects/ProjectsStyles";
@@ -81,7 +83,7 @@ const Timeline = () => {
         machine learning.
         <br/>
         <br/>
-        <a href="public/cv_nadinaZweifel_general.pdf" target="blank">Curriculum Vitae</a>
+        <FileLink href="/cv_nadinaZweifel_general.pdf" target="blank">Curriculum Vitae</FileLink>
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -109,7 +111,7 @@ const Timeline = () => {
                     clip-rule="evenodd"
                     d="M2.5 5.5C3.88071 5.5 5 4.38071 5 3V3.5L208 3.50002V2.50002L5 2.5V3C5 1.61929 3.88071 0.5 2.5 0.5C1.11929 0.5 0 1.61929 0 3C0 4.38071 1.11929 5.5 2.5 5.5Z"
                     fill="url(#paint0_linear)"
-                    fill-opacity="0.33"
+                    fill-opacity="0.88"
                   />
                   <defs>
                     <linearGradient
@@ -120,10 +122,10 @@ const Timeline = () => {
                       y2="0.500295"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="white" />
+                      <stop stop-color="#ff0000" />
                       <stop
                         offset="0.79478"
-                        stop-color="white"
+                        stop-color="red"
                         stop-opacity="0"
                       />
                     </linearGradient>

@@ -81,10 +81,10 @@ export const SectionDivider = styled.div`
   width: 64px;
   height: 6px;
   border-radius: 10px;
-  background-color: #fff;
-  background: ${(props) => props.colorAlt ? 
-    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
-    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+  background-color: #e60000;
+  /* background: ${(props) => props.colorAlt ? 
+    'linear-gradient(270deg, orange 0%, red 100%)' :
+    'linear-gradient(270deg, orange 0%, red 100%)'}; */
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
@@ -277,5 +277,13 @@ export const LinkIconImg = styled.div`
 
   @media ${(props) => props.theme.breakpoints.sm} {
     height: ${({ large }) => large ? '32px' : '16px'};
+  }
+`
+
+export const FileLink = styled.a`
+  color: #990000;
+  &:hover {
+    color: #ee0000;
+    cursor: pointer;
   }
 `

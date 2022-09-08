@@ -23,7 +23,7 @@ export const Boxes = styled.div`
 `
 
 export const Box = styled.div`
-  background: #212D45;
+  background: #660000;
   border-radius: 12px;
   height: 144px;
   padding: 24px;
@@ -38,7 +38,7 @@ export const Box = styled.div`
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 110px;
+    height: 130px;
     padding: 12px;
     
     &:nth-child(2n){
@@ -56,12 +56,12 @@ export const BoxTitle = styled.h5`
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 16px;
+    line-height: 24px;
   }
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 14px;
+    line-height: 18px;
 }
 `
 
