@@ -8,7 +8,7 @@ export default function Experience() {
   return (
     <div className={styles.container} id="experience">
       {jobData.map((job) => (
-        <Card {...job}></Card>
+        <Card key={job.id} {...job}></Card>
       ))}
       <div className={styles.container_resume}>
         <a href="https://www.linkedin.com/in/nadinaoates/details/experience/">View Full Resume </a>

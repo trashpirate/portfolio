@@ -4,6 +4,7 @@ import { BiLinkAlt } from "react-icons/bi";
 import { LiaExternalLinkAltSolid } from "react-icons/lia";
 
 interface JobProps {
+  id: number;
   image: string;
   title: string;
   links: any[];
@@ -12,7 +13,7 @@ interface JobProps {
   dates: string;
 }
 
-export default function Card({ image, title, links, description, tools, dates }: JobProps) {
+export default function Card({ id, image, title, links, description, tools, dates }: JobProps) {
   return (
     <div className={styles.card_container}>
       <div className={styles.card_left}>
@@ -37,7 +38,7 @@ export default function Card({ image, title, links, description, tools, dates }:
         <div className={styles.card_description}>{description}</div>
         <div className={styles.card_links}>
           {links.map((link) => (
-            <a className={styles.card_link} href={link.url}>
+            <a key={link.id} className={styles.card_link} href={link.url}>
               <p>
                 <BiLinkAlt
                   style={{
