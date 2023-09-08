@@ -8,7 +8,7 @@
       { "name": "Backend", "url": "https://github.com/trashpirate/betting-dapp-backend" }
     ],
     "description": "A DApp that allows users to place bets on future price movement using an ERC20 token. The DApp implements an API that handles price fetching from CoinmarktCap and betting timer. The frontend uses Wagmi to allow users to connect their wallets and place bets. Still in development.",
-    "tools": ["TypeScript", "NextJS", "NestJS", "Wagmi", "ConnectKit"],
+    "tools": ["TypeScript", "NextJS", "NestJS", "Wagmi", "ConnectKit","Heroku","Vercel"],
     "dates": "August 2023 - PRESENT"
   },
   {
