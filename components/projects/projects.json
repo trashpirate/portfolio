@@ -1,0 +1,46 @@
+[
+  {
+    "image": "/imgs/betting_dapp.png",
+    "title": "Betting DApp",
+    "links": [
+      { "name": "DApp", "url": "https://play.petlfg.com/" },
+      { "name": "Frontend", "url": "https://github.com/trashpirate/betting-dapp-frontend" },
+      { "name": "Backend", "url": "https://github.com/trashpirate/betting-dapp-backend" }
+    ],
+    "description": "A DApp that allows users to place bets on future price movement using an ERC20 token. The DApp implements an API that handles price fetching from CoinmarktCap and betting timer. The frontend uses Wagmi to allow users to connect their wallets and place bets. Still in development.",
+    "tools": ["TypeScript", "NextJS", "NestJS", "Wagmi", "ConnectKit"],
+    "dates": "August 2023 - PRESENT"
+  },
+  {
+    "image": "/imgs/tactile_scenes.png",
+    "title": "Tactile Scenes",
+    "links": [
+      { "name": "BioRxiv", "url": "https://www.biorxiv.org/content/10.1101/2022.08.03.502632v1" }
+    ],
+    "description": "A statistical analysis of 3D environments to study the how the brain may efficiently encode tactile sensory information.",
+    "tools": ["Geomagic Design", "Python", "MATLABt"],
+    "dates": "2020 - 2023"
+  },
+  {
+    "image": "/imgs/whiskit_physics.png",
+    "title": "WHISKiT Physics",
+    "links": [
+      { "name": "PNAS", "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2011905118" },
+      { "name": "Code", "url": "https://github.com/SeNSE-lab/whiskitphysics" }
+    ],
+    "description": "A simulation framework to model the dynamics of a complete sensorimotor system — the rodent vibrissal array — operating under ethologically relevant conditions to generate synthetic data for research in the fields of neuroscience, information theory, and artificial intelligence.",
+    "tools": ["C++", "Bullet Physics", "MATLAB", "Python"],
+    "dates": "2016 - 2019"
+  },
+
+  {
+    "image": "/imgs/active_sensing.png",
+    "title": "Active Sensing",
+    "links": [
+      { "name": "JNP", "url": "https://journals.physiology.org/doi/full/10.1152/jn.00608.2019" }
+    ],
+    "description": "An opinion piece about the term \"Active Sensing\" and a theoretical framework to analyze active sensing mechanisms based on energetic flow.",
+    "tools": [],
+    "dates": "2018 - 2019"
+  }
+]

@@ -1,0 +1,139 @@
+
+
+.card_container {
+    padding: 2rem;
+    margin: 2rem 0;
+    
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 1rem;
+    transition: all 500ms;
+}
+
+.card_container:hover {
+background-color: #00e0a711;
+box-shadow: 0 0 3px #00e0a755 inset;
+
+}
+
+.card_container:hover > .card_right > .card_title > h2{
+color: #00e0a7;
+
+}
+
+.card_left {
+    font-weight: lighter;
+    font-size: normal;
+    width: 30%;
+    opacity: 0.5;
+    color: #7efadb;
+}
+
+.card_right {
+    width: 70%;
+    color: #7efadb;
+}
+
+.card_description {
+    
+    font-weight: lighter;
+    font-size: normal;
+    opacity: 0.5;
+}
+
+.card_tools {
+    margin-top: 1rem;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card_tool {
+    text-wrap: nowrap;
+    background-color: #7efadb33;
+    padding: 0.3rem .8rem;
+    border-radius: 12px;
+    color: #7efadb;
+    font-size: smaller;
+}
+
+.card_links {
+    margin-top: 1rem;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card_link {
+    display: inline-block;
+    
+    text-wrap: nowrap;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.card_link:hover {
+    color: #7efadb;
+}
+
+
+.card_link > p {
+    font-size: smaller;
+    display: inline-block;
+    margin: 0;
+}
+
+.card_link > p:hover {
+    color: #7efadb;
+}
+
+.card_title > h2{
+    color: #fff;
+    margin-top: 0;
+  margin-bottom: .5rem;
+
+}
+
+.card_title > a > h3{
+    margin-top: 0;
+  margin-bottom: .5rem;
+  color: #fff;
+
+}
+.card_title > a > h3:hover{
+    color: #7efadb;
+transition: 500ms;
+}
+    
+.container_resume > a {
+    display: inline-block;
+    color: #fff;
+    transition: all 1s;
+}
+
+.container_resume > p {
+    display: inline-block;
+    color: #fff;
+    transition: all 500ms;
+}
+
+.container_resume:hover > a {
+    display: inline-block;
+    text-decoration: underline #00e0a7;
+    text-underline-offset: 8px;
+}
+
+.container_resume:hover > p {
+    display: inline-block;
+    color: #fff;
+    transform: translate(7px, 0);
+    
+}

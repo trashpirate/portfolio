@@ -1,0 +1,61 @@
+[{
+    "title": "Web3 Developer",
+    "company": "Self-employed",
+    "website": "",
+    "description": "Designed, built, and managed the development of ERC20 tokens and decentralized applications (DApps), including a betting platform, an NFT Marketplace, and a decentralized exchange. Performed on-chain smart contract updates. Designed and developed multiple websites.",
+    "tools": ["React", "JavaScript", "TypeScript", "NextJS", "NestJS", "Wordpress", "Solidity"],
+    "dates": "MAY 20212 - PRESENT",
+    "projects": [
+      {
+        "name": "LICK Betting Platform",
+        "url": "https://play.petlfg.com/"
+      }
+    ]
+  },
+  {
+    "title": "Research Engineer / Scientist",
+    "company": "Northwestern University",
+    "website": "https://sense-lab.github.io/",
+    "description": "Successfully oversaw a research project from conception to scientific breakthrough, involving collaborative efforts across various functions, yielding a groundbreaking high-precision 3D imaging dataset and a publication in a high-impact journal. Conducted comprehensive evaluations and analyses of machine learning algorithms and advanced statistical techniques for feature extraction from extensive datasets, leading to the discovery of fresh scientific insights. Additionally, managed the design, execution, and documentation of computational experiments to validate scientific hypotheses, ensuring the meticulous tracking of code versions for research result reproducibility.",
+    "tools": ["Python", "MATLAB", "C++", "Scikit-Learn", "Scipy", "PyTorch", "Geomagic Design"],
+    "dates": "DEC 2022 - MAY 2023",
+    "projects": [
+      {
+        "name": "WHISKiT Physics",
+        "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2011905118"
+      },
+      {
+        "name": "WHISKiT Physics Software",
+        "url": "https://github.com/SeNSE-lab/whiskitphysics"
+      },
+      {
+        "name": "Active Sensing",
+        "url": "https://journals.physiology.org/doi/full/10.1152/jn.00608.2019"
+      }
+    ]
+  },
+  {
+    "title": "Scientist / Project Lead",
+    "company": "Northwestern University",
+    "website": "https://sense-lab.github.io/",
+    "description": "Effectively led and supervised the creation of an innovative research simulation tool, utilizing the university's HPC cluster for extensive computational experiments that led to the publication of two research papers and the development of a publicly accessible software package. Demonstrated proficiency in applying both conventional statistics and machine learning techniques to extract valuable scientific insights from multidimensional time series data, often in collaboration with cross-functional teams, resulting in the receipt of a research progress award. Skillfully communicated and visualized research findings through three talks and five public presentations to diverse audiences. Additionally, provided mentorship and guidance to three Master's level students, leading to the successful completion of three thesis manuscripts and three graduations.",
+    "tools": ["C++", "Bullet Physics Library", "MATLAB", "Python", "Scikit-Learn", "Scipy"],
+    "dates": "SEP 2016 - SEP 2022",
+    "projects": [
+      {
+        "name": "Tactile Scenes",
+        "url": "https://www.biorxiv.org/content/10.1101/2022.08.03.502632v1"
+      }
+    ]
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "Shure Incorporated",
+    "website": "https://www.shure.com",
+    "description": "Developed and tested deep learning models on AWS infrastructure, leading to the creation of the company's initial synthetic voice generation model. Designed and conducted acoustic simulations, involving collaboration with engineers from diverse teams. Documented and presented proof of concepts to both stakeholders and company executives.",
+    "tools": ["Python", "PyTorch", "Scikit-Learn", "Scipy"],
+    "dates": "SEP 2016 - SEP 2022",
+    "projects": [
+    ]
+  }
+]

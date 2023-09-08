@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+
+.link {
+    display: inline-block;
+    margin-top: 10px;
+    opacity: 0.5;
+    color: #00e0a7;
+    transition: all 1s;
+}
+
+.link:hover {
+    opacity: 1;
+}
+.link:active {
+    opacity: 1;
+}
+.link:focus {
+    opacity: 1;
+}
+
+.link > hr {
+    display: inline-block;
+    width: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+    opacity: 0.5;
+    color: #00e0a7;
+    transition: all 1s;
+}
+
+.link:hover > hr {
+width: 80px;
+opacity: 1;
+}
+
+.link:active > hr {
+width: 80px;
+opacity: 1;
+}
+
+.link:focus > hr {
+width: 80px;
+opacity: 1;
+}

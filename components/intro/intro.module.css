@@ -1,0 +1,9 @@
+.intro {
+  top: 0;
+}
+
+.intro h1 {
+  margin-top: 0;
+  color: var(--highlight-color);
+  font-size: 40px;
+}
