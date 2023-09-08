@@ -54,7 +54,9 @@ export default function Card({ id, image, title, links, description, tools, date
         </div>
         <div className={styles.card_tools}>
           {tools.map((tool) => (
-            <div className={styles.card_tool}>{tool}</div>
+            <div key={tool} className={styles.card_tool}>
+              {tool}
+            </div>
           ))}
         </div>
       </div>
