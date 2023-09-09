@@ -2,7 +2,7 @@
 
 .card_container {
     padding: 2rem;
-    margin: 2rem 0;
+    margin: 1rem 0;
     
     border-radius: 12px;
     display: flex;
@@ -34,6 +34,23 @@ color: #00e0a7;
 .card_right {
     width: 70%;
     color: #7efadb;
+}
+
+@media only screen and (max-width: 600px) {
+.card_container {
+    padding: 2rem;
+    flex-direction: column;
+   
+}
+
+.card_left {
+    width: 100%;
+
+}
+
+.card_right {
+    width: 100%;
+}
 }
 
 .card_description {

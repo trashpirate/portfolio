@@ -22,7 +22,7 @@ export default function About() {
       </p>
       <br />
       <p>
-        Besides my scientific work, I'm enthusiastic for blockchain technology and crypto. Starting
+        Besides my scientific work, I am enthusiastic for blockchain technology and crypto. Starting
         out as an investor, I became more and more interested in the application of blockchain
         beyond cryptocurrencies. Since 2020, I have become increasingly involved in the Web3
         industry by independently acquiring Web3 development skills such as <em>Smart Contracts</em>
