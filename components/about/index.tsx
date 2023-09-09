@@ -26,7 +26,7 @@ export default function About() {
         cryptocurrencies. Since 2020, I have become increasingly involved in the Web3 industry by
         independently acquiring Web3 development skills (smart contracts, solidity), taking on a
         leading role in two cryptocurrency projects, regularly hosting crypto community events, and
-        running a crypto/blockchain themed YouTube channel with weekly updates`}
+        running a crypto/blockchain themed YouTube channel.`}
       </p>
     </div>
   );
