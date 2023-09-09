@@ -7,3 +7,13 @@
   color: var(--highlight-color);
   font-size: 40px;
 }
+
+
+@media only screen and (max-width: 500px) {
+  .intro h1 {
+   font-size: 30px;
+  }
+  .intro h2 {
+   inline-size: 230px; 
+  }
+}
