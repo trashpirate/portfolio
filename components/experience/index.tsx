@@ -27,7 +27,7 @@ export default function Experience() {
         </p>
       </div>
       <div className={styles.container_resume}>
-        <a href={"https://www.linkedin.com/in/nadinaoates"}>View on LinkedIn </a>
+        <a href={"https://www.linkedin.com/in/nadinaoates"}>LinkedIn Profile </a>
         <p>
           <BsArrowRight
             style={{
