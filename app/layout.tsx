@@ -17,17 +17,17 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@site",
     creator: "@creator",
-    images: "https://nadinaoastes.com/logo.png",
+    images: "https://nadinaoates.com/logo.png",
   },
   openGraph: {
     type: "website",
-    url: "https://nadinaoastes.com",
+    url: "https://nadinaoates.com",
     title: "Nadina Oates",
     description: "Portoflio Website",
     siteName: "Nadina Oates",
     images: [
       {
-        url: "https://nadinaoastes.com/logo.png",
+        url: "https://nadinaoates.com/logo.png",
       },
     ],
   },
