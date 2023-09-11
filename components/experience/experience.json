@@ -3,13 +3,28 @@
     "company": "Self-employed",
     "website": "",
     "description": "Designed, built, and managed the development of ERC20 tokens and decentralized applications (DApps), including a betting platform, an NFT Marketplace, and a decentralized exchange. Performed on-chain smart contract updates. Designed and developed multiple websites.",
-    "tools": ["React", "JavaScript", "TypeScript", "NextJS", "NestJS", "Wordpress", "Solidity"],
+    "tools": ["React", "JavaScript", "TypeScript", "NextJS", "NestJS", "WordPress", "Solidity"],
     "dates": "MAY 20212 - PRESENT",
     "projects": [
       {
         "id": 1,
         "name": "LICK Betting Platform",
         "url": "https://play.petlfg.com/"
+      },
+      {
+        "id": 1,
+        "name": "BoredRatMazeClub",
+        "url": "https://boredratmazeclub.com/"
+      },
+      {
+        "id": 1,
+        "name": "PetLFG",
+        "url": "https://petlfg.com/"
+      },
+      {
+        "id": 1,
+        "name": "MuddyBurn",
+        "url": "https://muddyburn.com/"
       }
     ]
   },
