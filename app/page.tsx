@@ -17,7 +17,7 @@ export default function Home() {
           </div>
           <div>
             <Socials></Socials>
-            <footer>Copyright 2023 @ Nadina Zweifel</footer>
+            <footer>Copyright 2023 @ Nadina (Oates) Zweifel</footer>
           </div>
         </div>
         <div className={styles.column_right}>
