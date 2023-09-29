@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import styles from "./socials.module.css";
 import { SocialIcon } from "react-social-icons";
 
 interface IconProps {

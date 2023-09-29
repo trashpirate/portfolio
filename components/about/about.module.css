@@ -3,21 +3,21 @@
 }
 .container > p {
     
-    opacity: 0.8;
+    opacity: var(--paragraph-opacity);
     margin: 0;
     padding: 0 2rem;
 }
 
 .container > p > a {
     color: var(--highlight-color);
-    opacity: 0.7;
+    opacity: var(--paragraph-opacity);
     transition: all 500ms;
     font-weight: 500;
 }
 
 .container > p > em {
     color: var(--highlight-color);
-    opacity: 0.7;
+    opacity: var(--paragraph-opacity);
 }
 
 .container > p > a:hover {

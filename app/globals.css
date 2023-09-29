@@ -6,6 +6,7 @@
   --foreground-color: #fff;
   --background-color: #000016;
   --highlight-color: #00e0a7;
+  --paragraph-opacity: 0.7;
 }
 
 html,

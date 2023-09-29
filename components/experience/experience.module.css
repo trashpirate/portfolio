@@ -18,7 +18,7 @@ box-shadow: 0 0 3px #00e0a755 inset;
 }
 
 .card_container:hover > .card_right > .card_title > h2{
-color: #00e0a7;
+color: var(--highlight-color);
 
 }
 
@@ -26,14 +26,14 @@ color: #00e0a7;
     font-weight: lighter;
     font-size: normal;
     width: 30%;
-    opacity: 0.5;
-    color: #00e0a7;
+    opacity: var(--paragraph-opacity);
+    color: var(--highlight-color);
     padding-top: 3px;
 }
 
 .card_right {
     width: 70%;
-    color: #00e0a7;
+    color: var(--highlight-color);
 }
 
 @media only screen and (max-width: 600px) {
@@ -58,7 +58,7 @@ color: #00e0a7;
     font-weight: lighter;
     font-size: normal;
     padding-top: 1rem;
-    opacity: 0.5;
+    opacity: var(--paragraph-opacity);
 }
 
 .card_tools {
@@ -76,7 +76,7 @@ color: #00e0a7;
     background-color: #7efadb33;
     padding: 0.3rem .8rem;
     border-radius: 12px;
-    color: #7efadb;
+    color: var(--highlight-color);
 }
 
 .card_projects {
@@ -97,7 +97,7 @@ color: #00e0a7;
 }
 
 .card_project:hover {
-    color: #7efadb;
+    color: var(--highlight-color);
 }
 
 
@@ -108,7 +108,7 @@ color: #00e0a7;
 }
 
 .card_project > p:hover {
-    color: #7efadb;
+    color: var(--highlight-color);
 }
 
 .card_title > h2{
@@ -125,7 +125,7 @@ color: #00e0a7;
 
 }
 .card_title > a > h3:hover{
-    color: #00e0a7;
+    color: var(--highlight-color);
 transition: 500ms;
 }
     
@@ -134,29 +134,29 @@ transition: 500ms;
 }
 .container_resume > a {
     display: inline-block;
-    color: #00e0a7;
+    color: var(--highlight-color);
     transition: all 1s;
 }
 
 .container_resume > p {
     display: inline-block;
-    color: #00e0a7;
-    opacity: 0.7;
+    color: var(--highlight-color);
+    opacity: var(--paragraph-opacity);
     transition: all 500ms;
     line-height: 1rem;
 }
 
 .container_resume:hover > a {
     display: inline-block;
-    color: #00e0a7;
-    text-decoration: underline #00e0a7;
+    color: var(--highlight-color);
+    text-decoration: underline var(--highlight-color);;
     text-underline-offset: 8px;
     opacity: 1;
 }
 
 .container_resume:hover > p {
     display: inline-block;
-    color: #00e0a7;
+    color: var(--highlight-color);
     transform: translate(7px, 0);
     opacity: 1;
     

@@ -11,6 +11,18 @@
   },
   {
     "id": 1,
+    "image": "/imgs/plots.jpg",
+    "title": "Plot Minter",
+    "links": [
+      { "id": 1, "name": "DApp", "url": "https://app.touchfreshgrass.com/" },
+      { "id": 2, "name": "Code", "url": "https://github.com/trashpirate/plot-minter" }
+    ],
+    "description": "Plot Minter is a NFT minting DApp for the crypto project Touch Grass including smart contracts based on ERC721A and ERC20 standard deployed to the Ethereum blockchain.",
+    "tools": ["TypeScript", "NextJS", "HTML", "CSS", "Wagmi", "ConnectKit"],
+    "dates": "September 2023"
+  },
+  {
+    "id": 1,
     "image": "/imgs/betting_dapp.png",
     "title": "Betting DApp",
     "links": [
