@@ -10,6 +10,18 @@
     "dates": "OCT 2022"
   },
   {
+    "id": 0,
+    "image": "/imgs/holdearn.jpg",
+    "title": "Hold ($EARN)",
+    "links": [
+      { "id": 1, "name": "Website", "url": "https://www.buyholdearn.com/" },
+      { "id": 2, "name": "Code", "url": "https://github.com/trashpirate/hold-earn" }
+    ],
+    "description": "An ERC20 token with a taxation that is redistributed back to holders (reflections).",
+    "tools": ["Solidity","TypeScript", "NextJS", "HTML", "CSS", "Wagmi"],
+    "dates": "OCT 2022"
+  },
+  {
     "id": 1,
     "image": "/imgs/plots.jpg",
     "title": "Plot Minter",
@@ -18,7 +30,7 @@
       { "id": 2, "name": "Code", "url": "https://github.com/trashpirate/plot-minter" }
     ],
     "description": "Plot Minter is a NFT minting DApp for the crypto project Touch Grass including smart contracts based on ERC721A and ERC20 standard deployed to the Ethereum blockchain.",
-    "tools": ["TypeScript", "NextJS", "HTML", "CSS", "Wagmi", "ConnectKit"],
+    "tools": ["Solidity", "TypeScript", "NextJS", "HTML", "CSS", "Wagmi", "ConnectKit"],
     "dates": "September 2023"
   },
   {

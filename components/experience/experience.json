@@ -1,35 +1,35 @@
 [{"id": 1,
-    "title": "Web3 Developer",
+    "title": "Blockchain/Web3 Developer",
     "company": "Self-employed",
     "website": "",
     "description": "Designed, built, and managed the development of ERC20 tokens and decentralized applications (DApps), including a betting platform, an NFT Marketplace, and a decentralized exchange. Performed on-chain smart contract updates. Designed and developed multiple websites.",
-    "tools": ["React", "JavaScript", "TypeScript", "NextJS", "NestJS", "WordPress", "Solidity"],
+    "tools": ["JavaScript", "TypeScript", "NextJS", "React", "NestJS", "WordPress", "Solidity"],
     "dates": "MAY 20212 - PRESENT",
     "projects": [
       {
         "id": 0,
+        "name": "Hold ($EARN)",
+        "url": "https://www.buyholdearn.com/"
+      },
+      {
+        "id": 1,
         "name": "Plot Minter",
         "url": "https://app.touchfreshgrass.com/"
       },
       {
-        "id": 1,
+        "id": 2,
         "name": "LICK Betting Platform",
         "url": "https://play.petlfg.com/"
       },
       {
-        "id": 2,
+        "id": 3,
         "name": "BoredRatMazeClub",
         "url": "https://boredratmazeclub.com/"
       },
       {
-        "id": 3,
+        "id": 4,
         "name": "PetLFG",
         "url": "https://petlfg.com/"
-      },
-      {
-        "id": 4,
-        "name": "MuddyBurn",
-        "url": "https://muddyburn.com/"
       }
     ]
   },
