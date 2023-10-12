@@ -10,7 +10,7 @@ export default function Experience() {
         <Card key={job.id} {...job}></Card>
       ))}
       <div className={styles.container_resume}>
-        <a href={"/resume_nadinaoates_231010.pdf"} target="_blank" rel="noopener noreferrer">
+        <a href={"/resume_nadinaoates_231012.pdf"} target="_blank" rel="noopener noreferrer">
           Download Resume{" "}
         </a>
         <p>
