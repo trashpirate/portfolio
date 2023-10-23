@@ -18,7 +18,7 @@
       { "id": 1, "name": "DApp", "url": "https://app.buyholdearn.com/" },
       { "id": 2, "name": "Code", "url": "https://github.com/trashpirate/hold-earn" }
     ],
-    "description": "Hold ($EARN) is a crypto project that includes an ERC20 token with a taxation that is redistributed back to holders (reflections). The project extens to a NFT smart contract based on the ERC721 standard and an NFT minting DApp \"Flame Minter\".",
+    "description": "Hold ($EARN) is a crypto project that includes an ERC20 token with a taxation that is redistributed back to holders (reflections). The project extends to a NFT smart contract based on the ERC721 standard and an NFT minting DApp \"Flame Minter\".",
     "tools": ["Solidity","TypeScript", "NextJS", "HTML", "CSS", "Tailwind", "Wagmi"],
     "dates": "OCT 2023"
   },
