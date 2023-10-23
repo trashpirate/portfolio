@@ -7,19 +7,20 @@
     ],
     "description": "My personal porfolio website hosted on Vercel.",
     "tools": ["TypeScript", "NextJS", "React", "HTML", "CSS"],
-    "dates": "OCT 2022"
+    "dates": "OCT 2023"
   },
   {
     "id": 0,
     "image": "/imgs/holdearn.jpg",
     "title": "Hold ($EARN)",
     "links": [
-      { "id": 1, "name": "Website", "url": "https://www.buyholdearn.com/" },
+      { "id": 1, "name": "Website", "url": "https://buyholdearn.com/" },
+      { "id": 1, "name": "DApp", "url": "https://app.buyholdearn.com/" },
       { "id": 2, "name": "Code", "url": "https://github.com/trashpirate/hold-earn" }
     ],
-    "description": "An ERC20 token with a taxation that is redistributed back to holders (reflections).",
-    "tools": ["Solidity","TypeScript", "NextJS", "HTML", "CSS", "Wagmi"],
-    "dates": "OCT 2022"
+    "description": "Hold ($EARN) is a crypto project that includes an ERC20 token with a taxation that is redistributed back to holders (reflections). The project extens to a NFT smart contract based on the ERC721 standard and an NFT minting DApp \"Flame Minter\".",
+    "tools": ["Solidity","TypeScript", "NextJS", "HTML", "CSS", "Tailwind", "Wagmi"],
+    "dates": "OCT 2023"
   },
   {
     "id": 1,
