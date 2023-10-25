@@ -3,27 +3,27 @@
     "image": "/imgs/portfolio.jpg",
     "title": "Portfolio Website",
     "links": [
-      { "id": 2, "name": "Code", "url": "https://github.com/trashpirate/portfolio" }
+      { "id": 1, "name": "Code", "url": "https://github.com/trashpirate/portfolio" }
     ],
     "description": "My personal porfolio website hosted on Vercel.",
     "tools": ["TypeScript", "NextJS", "React", "HTML", "CSS"],
     "dates": "OCT 2023"
   },
   {
-    "id": 0,
-    "image": "/imgs/holdearn.jpg",
+    "id": 1,
+    "image": "/imgs/flames.jpg",
     "title": "Hold ($EARN)",
     "links": [
       { "id": 1, "name": "Website", "url": "https://buyholdearn.com/" },
-      { "id": 1, "name": "DApp", "url": "https://app.buyholdearn.com/" },
-      { "id": 2, "name": "Code", "url": "https://github.com/trashpirate/hold-earn" }
+      { "id": 2, "name": "DApp", "url": "https://app.buyholdearn.com/" },
+      { "id": 3, "name": "Code", "url": "https://github.com/trashpirate/flame-minter" }
     ],
     "description": "Hold ($EARN) is a crypto project that includes an ERC20 token with a taxation that is redistributed back to holders (reflections). The project extends to a NFT smart contract based on the ERC721 standard and an NFT minting DApp \"Flame Minter\".",
     "tools": ["Solidity","TypeScript", "NextJS", "HTML", "CSS", "Tailwind", "Wagmi"],
     "dates": "OCT 2023"
   },
   {
-    "id": 1,
+    "id": 2,
     "image": "/imgs/plots.jpg",
     "title": "Plot Minter",
     "links": [
@@ -35,7 +35,7 @@
     "dates": "September 2023"
   },
   {
-    "id": 1,
+    "id": 3,
     "image": "/imgs/betting_dapp.png",
     "title": "Betting DApp",
     "links": [
@@ -48,7 +48,7 @@
     "dates": "August 2023 - PRESENT"
   },
   {
-    "id": 2,
+    "id": 4,
     "image": "/imgs/boredratmazeclub.jpg",
     "title": "BoredRatMazeClub Website",
     "links": [
@@ -60,7 +60,7 @@
     "dates": "OCT 2022"
   },
   {
-    "id": 3,
+    "id": 5,
     "image": "/imgs/petlfg.png",
     "title": "PetLFG Website",
     "links": [
@@ -71,7 +71,7 @@
     "dates": "MAY 2023"
   },
   {
-    "id": 4,
+    "id": 6,
     "image": "/imgs/muddyburn.jpg",
     "title": "MuddyBurn Website",
     "links": [
@@ -82,7 +82,7 @@
     "dates": "SEP 2023"
   },
   {
-    "id": 5,
+    "id": 7,
     "image": "/imgs/tactile_scenes.png",
     "title": "Tactile Scenes",
     "links": [
@@ -93,7 +93,7 @@
     "dates": "2020 - 2023"
   },
   {
-    "id": 6,
+    "id": 8,
     "image": "/imgs/whiskit_physics.png",
     "title": "WHISKiT Physics",
     "links": [
@@ -106,7 +106,7 @@
   },
 
   {
-    "id": 7,
+    "id": 9,
     "image": "/imgs/active_sensing.png",
     "title": "Active Sensing",
     "links": [
