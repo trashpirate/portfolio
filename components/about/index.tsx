@@ -16,7 +16,7 @@ export default function About() {
         of experience in
         <em>Crypto</em>, <em>NFTs</em>, <em>DeFi</em>, and <em>Web 3.0</em>. I've led projects from
         concept to production, developed NFT minting dapps, and my latest achievement was to
-        increase the gas efficiency of a widly used ERC20 token contract by 100%. My skills span{" "}
+        increase the gas efficiency of a wildly used ERC20 token contract by 100%. My skills span{" "}
         <em>JavaScript</em>, <em>TypeScript</em>, <em>Node.js</em>, <em>React/Next.js</em>,
         <em>Solidity</em>, <em>Hardhat</em>, <em>Ethers.js</em>, and <em>Slither</em>.
       </p>
