@@ -45,17 +45,6 @@ $ npm next start
 * LinkedIn: [@nadinaoates](https://linkedin.com/in/nadinaoates)
 
 
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check [issues page](https://github.com/trashpirate/plot-minter/issues). 
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-
 ## 📝 License
 
 Copyright © 2023 [Nadina Oates](https://github.com/trashpirate).
