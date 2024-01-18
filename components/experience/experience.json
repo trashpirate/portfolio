@@ -63,18 +63,8 @@
     "projects": [
       {
         "id": 1,
-        "name": "WHISKiT Physics",
-        "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2011905118"
-      },
-      {
-        "id": 2,
-        "name": "WHISKiT Physics Software",
-        "url": "https://github.com/SeNSE-lab/whiskitphysics"
-      },
-      {
-        "id": 3,
-        "name": "Active Sensing",
-        "url": "https://journals.physiology.org/doi/full/10.1152/jn.00608.2019"
+        "name": "Tactile Scenes",
+        "url": "https://www.biorxiv.org/content/10.1101/2022.08.03.502632v1"
       }
     ]
   },
@@ -96,8 +86,18 @@
     "projects": [
       {
         "id": 1,
-        "name": "Tactile Scenes",
-        "url": "https://www.biorxiv.org/content/10.1101/2022.08.03.502632v1"
+        "name": "WHISKiT Physics",
+        "url": "https://www.pnas.org/doi/abs/10.1073/pnas.2011905118"
+      },
+      {
+        "id": 2,
+        "name": "WHISKiT Physics Software",
+        "url": "https://github.com/SeNSE-lab/whiskitphysics"
+      },
+      {
+        "id": 3,
+        "name": "Active Sensing",
+        "url": "https://journals.physiology.org/doi/full/10.1152/jn.00608.2019"
       }
     ]
   },
