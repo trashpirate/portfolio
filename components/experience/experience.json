@@ -1,15 +1,36 @@
-[{"id": 1,
+[
+  {
+    "id": 1,
     "title": "Blockchain/Web3 Developer",
     "company": "Self-employed",
     "website": "",
     "description": "Designed, built, and managed the development of ERC20 tokens and decentralized applications (DApps), including a betting platform, an NFT Marketplace, and a decentralized exchange. Performed on-chain smart contract updates. Designed and developed multiple websites.",
-    "tools": ["JavaScript", "TypeScript", "NextJS", "React", "NestJS", "WordPress", "Solidity"],
+    "tools": [
+      "JavaScript",
+      "TypeScript",
+      "NextJS",
+      "React",
+      "NestJS",
+      "TailwindCSS",
+      "Solidity",
+      "Foundry"
+    ],
     "dates": "MAY 20212 - PRESENT",
     "projects": [
       {
         "id": 0,
+        "name": "Hold ($EARN)",
+        "url": "https://buyholdearn.com/"
+      },
+      {
+        "id": 0,
         "name": "Flame Minter",
         "url": "https://app.buyholdearn.com/"
+      },
+      {
+        "id": 0,
+        "name": "Flamelings",
+        "url": "https://flame.buyholdearn.com/"
       },
       {
         "id": 1,
@@ -20,16 +41,6 @@
         "id": 2,
         "name": "LICK Betting Platform",
         "url": "https://play.petlfg.com/"
-      },
-      {
-        "id": 3,
-        "name": "BoredRatMazeClub",
-        "url": "https://boredratmazeclub.com/"
-      },
-      {
-        "id": 4,
-        "name": "PetLFG",
-        "url": "https://petlfg.com/"
       }
     ]
   },
@@ -39,7 +50,15 @@
     "company": "Northwestern University",
     "website": "https://sense-lab.github.io/",
     "description": "Successfully oversaw a research project from conception to scientific breakthrough, involving collaborative efforts across various functions, yielding a groundbreaking high-precision 3D imaging dataset and a publication in a high-impact journal. Conducted comprehensive evaluations and analyses of machine learning algorithms and advanced statistical techniques for feature extraction from extensive datasets, leading to the discovery of fresh scientific insights. Additionally, managed the design, execution, and documentation of computational experiments to validate scientific hypotheses, ensuring the meticulous tracking of code versions for research result reproducibility.",
-    "tools": ["Python", "MATLAB", "C++", "Scikit-Learn", "Scipy", "PyTorch", "Geomagic Design"],
+    "tools": [
+      "Python",
+      "MATLAB",
+      "C++",
+      "Scikit-Learn",
+      "Scipy",
+      "PyTorch",
+      "Geomagic Design"
+    ],
     "dates": "DEC 2022 - MAY 2023",
     "projects": [
       {
@@ -65,7 +84,14 @@
     "company": "Northwestern University",
     "website": "https://sense-lab.github.io/",
     "description": "Effectively led and supervised the creation of an innovative research simulation tool, utilizing the university's HPC cluster for extensive computational experiments that led to the publication of two research papers and the development of a publicly accessible software package. Demonstrated proficiency in applying both conventional statistics and machine learning techniques to extract valuable scientific insights from multidimensional time series data, often in collaboration with cross-functional teams, resulting in the receipt of a research progress award. Skillfully communicated and visualized research findings through three talks and five public presentations to diverse audiences. Additionally, provided mentorship and guidance to three Master's level students, leading to the successful completion of three thesis manuscripts and three graduations.",
-    "tools": ["C++", "Bullet Physics Library", "MATLAB", "Python", "Scikit-Learn", "Scipy"],
+    "tools": [
+      "C++",
+      "Bullet Physics Library",
+      "MATLAB",
+      "Python",
+      "Scikit-Learn",
+      "Scipy"
+    ],
     "dates": "SEP 2016 - SEP 2022",
     "projects": [
       {
@@ -81,9 +107,13 @@
     "company": "Shure Incorporated",
     "website": "https://www.shure.com",
     "description": "Developed and tested deep learning models on AWS infrastructure, leading to the creation of the company's initial synthetic voice generation model. Designed and conducted acoustic simulations, involving collaboration with engineers from diverse teams. Documented and presented proof of concepts to both stakeholders and company executives.",
-    "tools": ["Python", "PyTorch", "Scikit-Learn", "Scipy"],
+    "tools": [
+      "Python",
+      "PyTorch",
+      "Scikit-Learn",
+      "Scipy"
+    ],
     "dates": "SEP 2016 - SEP 2022",
-    "projects": [
-    ]
+    "projects": []
   }
 ]
