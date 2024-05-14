@@ -5,6 +5,7 @@ import Socials from "@/components/socials";
 import Experience from "@/components/experience";
 import Projects from "@/components/projects";
 import Navigation from "@/components/navigation";
+import FancyLink from "@/components/fancyLink";
 
 export default function Home() {
   return (
@@ -13,11 +14,13 @@ export default function Home() {
         <div className={styles.column_left}>
           <div>
             <Intro></Intro>
+
             <Navigation></Navigation>
+            <FancyLink link="https://t.me/EARNServices" title="BOOK MY SERVICES"></FancyLink>
           </div>
           <div>
             <Socials></Socials>
-            <footer>Copyright 2023 @ Nadina (Oates) Zweifel</footer>
+            <footer>Copyright 2024 @ Nadina (Oates) Zweifel</footer>
           </div>
         </div>
         <div className={styles.column_right}>

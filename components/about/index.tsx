@@ -15,9 +15,8 @@ export default function About() {
         Currently, I am a Full Stack and Blockchain Developer based in Chicago. I have over 3 years
         of experience in
         <em>Crypto</em>, <em>NFTs</em>, <em>DeFi</em>, and <em>Web 3.0</em>. I{"'"}ve led projects
-        from concept to production, developed NFT minting dapps, and my latest achievement was to
-        increase the gas efficiency of a wildly used ERC20 token contract by 100%. My skills span{" "}
-        <em>JavaScript</em>, <em>TypeScript</em>, <em>Node.js</em>, <em>React/Next.js</em>, <em>TailwindCSS</em>, <em>Solidity</em>, <em>Hardhat</em>, <em>Foundry</em>, <em>Ethers.js</em>, and <em>Slither</em>.
+        from concept to production, developed NFT minting dapps, and my latest achievement was a cross-chain nft collection minted from BNB chain to Base chain. My skills span{" "}
+        <em>TypeScript</em>, <em>Node.js</em>, <em>React/Next.js</em>, <em>TailwindCSS</em>, <em>Wagmi/Viem</em>, <em>Solidity</em>, <em>Hardhat</em>, <em>Foundry</em>, and <em>Slither</em>.
       </p>
       <br />
       <p>
@@ -31,13 +30,13 @@ export default function About() {
       <br />
       <p>
         In addition to my professional work, I{"'"}m dedicated to promoting Web3 adoption. I
-        co-founded multiple web3 communities and regularly host{" "}
-        <a href="https://oatestalkcrypto.eventbrite.com">crypto community events</a> in Chicago. I
+        co-founded multiple web3 communities and host crypto community events in Chicago. I
         am excited about the potential of blockchain and decentralized technologies and am dedicated
         to bringing Web3 adoption to the masses. If you{"'"}re looking for a versatile developer who
         can take your projects to the next level, let{"'"}s connect and discuss how I can contribute
         to your team.
       </p>
+
     </div>
   );
 }

@@ -128,36 +128,8 @@ color: var(--highlight-color);
     color: var(--highlight-color);
 transition: 500ms;
 }
-    
-.container_resume {
+
+.container_links {
     padding: 0 2rem 0 2rem;
 }
-.container_resume > a {
-    display: inline-block;
-    color: var(--highlight-color);
-    transition: all 1s;
-}
-
-.container_resume > p {
-    display: inline-block;
-    color: var(--highlight-color);
-    opacity: var(--paragraph-opacity);
-    transition: all 500ms;
-    line-height: 1rem;
-}
-
-.container_resume:hover > a {
-    display: inline-block;
-    color: var(--highlight-color);
-    text-decoration: underline var(--highlight-color);;
-    text-underline-offset: 8px;
-    opacity: 1;
-}
-
-.container_resume:hover > p {
-    display: inline-block;
-    color: var(--highlight-color);
-    transform: translate(7px, 0);
-    opacity: 1;
     
-}

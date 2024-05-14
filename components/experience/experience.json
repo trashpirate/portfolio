@@ -2,45 +2,45 @@
   {
     "id": 1,
     "title": "Blockchain/Web3 Developer",
-    "company": "Self-employed",
+    "company": "Freelancer",
     "website": "",
     "description": "Designed, built, and managed the development of ERC20 tokens and decentralized applications (DApps), including a betting platform, an NFT Marketplace, and a decentralized exchange. Performed on-chain smart contract updates. Designed and developed multiple websites.",
     "tools": [
-      "JavaScript",
       "TypeScript",
       "NextJS",
       "React",
       "NestJS",
       "TailwindCSS",
       "Solidity",
+      "Chainlink",
       "Foundry"
     ],
-    "dates": "MAY 20212 - PRESENT",
+    "dates": "MAY 2021 - PRESENT",
     "projects": [
       {
         "id": 0,
+        "name": "PGENZ Collection",
+        "url": "https://pgenz-nft.vercel.app/"
+      },
+      {
+        "id": 1,
         "name": "Hold ($EARN)",
         "url": "https://buyholdearn.com/"
       },
       {
-        "id": 0,
-        "name": "Flame Minter",
-        "url": "https://app.buyholdearn.com/"
-      },
-      {
-        "id": 0,
-        "name": "Flamelings",
-        "url": "https://flame.buyholdearn.com/"
-      },
-      {
-        "id": 1,
-        "name": "Plot Minter",
-        "url": "https://app.touchfreshgrass.com/"
-      },
-      {
         "id": 2,
-        "name": "LICK Betting Platform",
-        "url": "https://play.petlfg.com/"
+        "name": "Flameling Queens",
+        "url": "https://0x52.buyholdearn.com/"
+      },
+      {
+        "id": 3,
+        "name": "Flamestarters",
+        "url": "https://flamestarters.buyholdearn.com/"
+      },
+      {
+        "id": 4,
+        "name": "Flamelings",
+        "url": "https://flamelings.touchfreshgrass.com/"
       }
     ]
   },

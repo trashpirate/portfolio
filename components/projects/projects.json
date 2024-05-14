@@ -5,7 +5,7 @@
     "title": "Portfolio Website",
     "links": [
       {
-        "id": 1,
+        "id": 0,
         "name": "Code",
         "url": "https://github.com/trashpirate/portfolio"
       }
@@ -22,6 +22,106 @@
   },
   {
     "id": 1,
+    "image": "/imgs/pigeonpark.png",
+    "title": "PGENZ Collection",
+    "links": [
+      {
+        "id": 1,
+        "name": "DApp",
+        "url": "https://pgenz-nft.vercel.app/"
+      },
+      {
+        "id": 2,
+        "name": "Code (Smart Contract)",
+        "url": "https://github.com/trashpirate/pgenz-nft-contract"
+      },
+      {
+        "id": 2,
+        "name": "Code (Frontend)",
+        "url": "https://github.com/trashpirate/pgenz-nft-dapp"
+      }
+    ],
+    "description": "The PGENZ Collection is part of the PigeonPark crypto project on Ethereum. As a freelancer, I developed the nft smart contract including randomization, whitelisting, and extandable nft collection as well as the minting app.",
+    "tools": [
+      "Solidity",
+      "TypeScript",
+      "NextJS",
+      "HTML",
+      "CSS",
+      "Wagmi",
+      "ConnectKit"
+    ],
+    "dates": "May 2024"
+  },
+  {
+    "id": 2,
+    "image": "/imgs/flamelingQueens.png",
+    "title": "Cross-chain NFT Collection",
+    "links": [
+      {
+        "id": 1,
+        "name": "DApp",
+        "url": "https://0x52.buyholdearn.com/"
+      },
+      {
+        "id": 2,
+        "name": "Code (Smart Contracts)",
+        "url": "https://github.com/trashpirate/crosschain-nft"
+      },
+      {
+        "id": 3,
+        "name": "Code (Frontend)",
+        "url": "https://github.com/trashpirate/queens-frontend"
+      }
+    ],
+    "description": "A pseudo-randomized cross-chain NFT contract (ERC721A) using Chainlink CCIP. The contracts are deployed on BNB and Base chain. BEP-20 tokens and BNB is used for minting whilte the NFTs are created on Base chain.",
+    "tools": [
+      "Solidity",
+      "TypeScript",
+      "NextJS",
+      "NestJS",
+      "HTML",
+      "CSS",
+      "Wagmi",
+      "ConnectKit"
+    ],
+    "dates": "April 2024"
+  },
+  {
+    "id": 3,
+    "image": "/imgs/liquid.png",
+    "title": "LIQUID Collection",
+    "links": [
+      {
+        "id": 1,
+        "name": "DApp",
+        "url": "https://liquid.buyholdearn.com/"
+      },
+      {
+        "id": 2,
+        "name": "Code (Smart Contract)",
+        "url": "https://github.com/trashpirate/liquid-nft-contract"
+      },
+      {
+        "id": 3,
+        "name": "Code (Frontend)",
+        "url": "https://github.com/trashpirate/liquid-dapp"
+      }
+    ],
+    "description": "Smart contract inheriting from ERC721A with a USDC minting fee on Base chain including full deployment/testing suite using Foundry.",
+    "tools": [
+      "Solidity",
+      "TypeScript",
+      "NextJS",
+      "HTML",
+      "CSS",
+      "Wagmi",
+      "ConnectKit"
+    ],
+    "dates": "May 2024"
+  },
+  {
+    "id": 3,
     "image": "/imgs/flames.jpg",
     "title": "Hold ($EARN)",
     "links": [
@@ -66,68 +166,6 @@
     "dates": "OCT 2023"
   },
   {
-    "id": 2,
-    "image": "/imgs/plots.jpg",
-    "title": "Plot Minter",
-    "links": [
-      {
-        "id": 1,
-        "name": "DApp",
-        "url": "https://app.touchfreshgrass.com/"
-      },
-      {
-        "id": 2,
-        "name": "Code",
-        "url": "https://github.com/trashpirate/plot-minter"
-      }
-    ],
-    "description": "Plot Minter is a NFT minting DApp for the crypto project Touch Grass including smart contracts based on ERC721A and ERC20 standard deployed to the Ethereum blockchain.",
-    "tools": [
-      "Solidity",
-      "TypeScript",
-      "NextJS",
-      "HTML",
-      "CSS",
-      "Wagmi",
-      "ConnectKit"
-    ],
-    "dates": "September 2023"
-  },
-  {
-    "id": 3,
-    "image": "/imgs/betting_dapp.png",
-    "title": "Betting DApp",
-    "links": [
-      {
-        "id": 1,
-        "name": "DApp",
-        "url": "https://play.petlfg.com/"
-      },
-      {
-        "id": 2,
-        "name": "Frontend",
-        "url": "https://github.com/trashpirate/betting-dapp-frontend"
-      },
-      {
-        "id": 3,
-        "name": "Backend",
-        "url": "https://github.com/trashpirate/betting-dapp-backend"
-      }
-    ],
-    "description": "A DApp that allows users to place bets on future price movement using an ERC20 token. The DApp implements an API that handles price fetching from CoinmarktCap and betting timer. The frontend uses Wagmi to allow users to connect their wallets and place bets. Still in development.",
-    "tools": [
-      "TypeScript",
-      "NextJS",
-      "NestJS",
-      "HTML",
-      "CSS",
-      "Wagmi",
-      "ConnectKit",
-      "Heroku"
-    ],
-    "dates": "August 2023 - PRESENT"
-  },
-  {
     "id": 4,
     "image": "/imgs/boredratmazeclub.jpg",
     "title": "BoredRatMazeClub Website",
@@ -151,44 +189,6 @@
       "CSS"
     ],
     "dates": "OCT 2022"
-  },
-  {
-    "id": 5,
-    "image": "/imgs/petlfg.png",
-    "title": "PetLFG Website",
-    "links": [
-      {
-        "id": 1,
-        "name": "Website",
-        "url": "https://petlfg.com/"
-      }
-    ],
-    "description": "Project website for the cryptocurrency PetLFG (LICK) using WordPress and hosted on SiteGround.",
-    "tools": [
-      "WordPress",
-      "HTML",
-      "CSS"
-    ],
-    "dates": "MAY 2023"
-  },
-  {
-    "id": 6,
-    "image": "/imgs/muddyburn.jpg",
-    "title": "MuddyBurn Website",
-    "links": [
-      {
-        "id": 1,
-        "name": "Website",
-        "url": "https://muddyburn.com/"
-      }
-    ],
-    "description": "Project website for the cryptocurrency MuddyBurn (MUDDY) using WordPress and hosted on SiteGround.",
-    "tools": [
-      "WordPress",
-      "HTML",
-      "CSS"
-    ],
-    "dates": "SEP 2023"
   },
   {
     "id": 7,
