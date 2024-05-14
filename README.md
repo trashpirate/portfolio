@@ -3,7 +3,7 @@
 ![Node](https://img.shields.io/badge/node-v20.10.0-blue.svg?style=for-the-badge)
 ![NPM](https://img.shields.io/badge/npm-v10.2.3-blue?style=for-the-badge)
 ![Nextjs](https://img.shields.io/badge/next-v13.5.4-blue?style=for-the-badge)
-[![License: MIT](https://img.shields.io/github/license/trashpirate/hold-earn.svg?style=for-the-badge)](https://github.com/trashpirate/hold-earn/blob/main/LICENSE)
+![GitHub License](https://img.shields.io/github/license/trashpirate/portfolio?style=for-the-badge)
 
 [![Website: nadinaoates.com](https://img.shields.io/badge/Portfolio-00e0a7?style=for-the-badge&logo=Website)](https://nadinaoates.com)
 [![LinkedIn: nadinaoates](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=LinkedIn&logoColor=f5f5f5)](https://linkedin.com/in/nadinaoates)
@@ -49,6 +49,6 @@ $ npm next start
 
 Copyright © 2023 [Nadina Oates](https://github.com/trashpirate).
 
-This project is [MIT](https://github.com/trashpirate/betting-dapp-frontend/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/trashpirate/portfolio/blob/main/LICENSE) licensed.
 
 

@@ -33,14 +33,24 @@
         "url": "https://0x52.buyholdearn.com/"
       },
       {
-        "id": 3,
+        "id": 4,
+        "name": "Liquid",
+        "url": "https://liquid.buyholdearn.com/"
+      },
+      {
+        "id": 5,
         "name": "Flamestarters",
         "url": "https://flamestarters.buyholdearn.com/"
       },
       {
-        "id": 4,
+        "id": 6,
         "name": "Flamelings",
         "url": "https://flamelings.touchfreshgrass.com/"
+      },
+      {
+        "id": 6,
+        "name": "Flames",
+        "url": "https://flames.touchfreshgrass.com/"
       }
     ]
   },
