@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "Blockchain/Web3 Developer",
+    "title": "Fullstack Blockchain Developer",
     "company": "Freelancer",
     "website": "",
-    "description": "Designed, built, and managed the development of ERC20 tokens and decentralized applications (DApps), including a betting platform, an NFT Marketplace, and a decentralized exchange. Performed on-chain smart contract updates. Designed and developed multiple websites.",
+    "description": "Development, testing, and deployment of NFT smart contracts adhering to ERC721 and ERC721A standards, with custom features such as cross-chain minting, dynamic fees, whitelists, and randomization. Creating and deploying minting DApps that integrate seamlessly with smart contracts contracts. Developed, tested, and deployed a multi-chain Telegram bot to handle NFT notifications across various collections.",
     "tools": [
       "TypeScript",
       "NextJS",
@@ -19,38 +19,33 @@
     "projects": [
       {
         "id": 0,
+        "name": "Telegram NFT Bot",
+        "url": "https://t.me/EarnNFTBot"
+      },
+      {
+        "id": 1,
         "name": "PGENZ Collection",
         "url": "https://pgenz-nft.vercel.app/"
       },
       {
-        "id": 1,
+        "id": 2,
+        "name": "GRASSY Collection",
+        "url": "https://app.touchbasedgrass.com/"
+      },
+      {
+        "id": 3,
         "name": "Hold ($EARN)",
         "url": "https://buyholdearn.com/"
       },
       {
-        "id": 2,
+        "id": 4,
         "name": "Flameling Queens",
         "url": "https://0x52.buyholdearn.com/"
       },
       {
-        "id": 4,
+        "id": 5,
         "name": "Liquid",
         "url": "https://liquid.buyholdearn.com/"
-      },
-      {
-        "id": 5,
-        "name": "Flamestarters",
-        "url": "https://flamestarters.buyholdearn.com/"
-      },
-      {
-        "id": 6,
-        "name": "Flamelings",
-        "url": "https://flamelings.touchfreshgrass.com/"
-      },
-      {
-        "id": 6,
-        "name": "Flames",
-        "url": "https://flames.touchfreshgrass.com/"
       }
     ]
   },

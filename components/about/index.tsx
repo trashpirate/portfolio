@@ -12,7 +12,7 @@ export default function About() {
       </p>
       <br />
       <p>
-        Currently, I am a Full Stack and Blockchain Developer based in Chicago. I have over 3 years
+        Currently, I am a Fullstack Blockchain Developer based in Chicago. I have over 3 years
         of experience in
         <em>Crypto</em>, <em>NFTs</em>, <em>DeFi</em>, and <em>Web 3.0</em>. I{"'"}ve led projects
         from concept to production, developed NFT minting dapps, and my latest achievement was a cross-chain nft collection minted from BNB chain to Base chain. My skills span{" "}
@@ -31,7 +31,7 @@ export default function About() {
       <p>
         In addition to my professional work, I{"'"}m dedicated to promoting Web3 adoption. I
         co-founded multiple web3 communities and host crypto community events in Chicago. I
-        am excited about the potential of blockchain and decentralized technologies and am dedicated
+        am excited about the potential of blockchain and decentralized technologies and am committed
         to bringing Web3 adoption to the masses. If you{"'"}re looking for a versatile developer who
         can take your projects to the next level, let{"'"}s connect and discuss how I can contribute
         to your team.

@@ -7,7 +7,7 @@
 
 [![Website: nadinaoates.com](https://img.shields.io/badge/Portfolio-00e0a7?style=for-the-badge&logo=Website)](https://nadinaoates.com)
 [![LinkedIn: nadinaoates](https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=LinkedIn&logoColor=f5f5f5)](https://linkedin.com/in/nadinaoates)
-[![Twitter: N0_crypto](https://img.shields.io/badge/@N0_crypto-black?style=for-the-badge&logo=X)](https://twitter.com/N0_crypto)
+[![Twitter: 0xTrashPirate](https://img.shields.io/badge/@0xTrashPirate-black?style=for-the-badge&logo=X)](https://twitter.com/0xTrashPirate)
 
 
 ## About
@@ -47,7 +47,7 @@ $ npm next start
 
 ## 📝 License
 
-Copyright © 2023 [Nadina Oates](https://github.com/trashpirate).
+Copyright © 2024 [Nadina Oates](https://github.com/trashpirate).
 
 This project is [MIT](https://github.com/trashpirate/portfolio/blob/main/LICENSE) licensed.
 

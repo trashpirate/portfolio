@@ -11,7 +11,7 @@ export default function Experience() {
         <Card key={job.id} {...job}></Card>
       ))}
       <div className={styles.container_links}>
-        <FancyLink link="/resume_nadinaoates_240117.pdf" title="Download Resume"></FancyLink>
+        <FancyLink link="/resume_nadinaoates_240905_fullstack.pdf" title="Download Resume"></FancyLink>
         <FancyLink link="https://www.linkedin.com/in/nadinaoates" title="LinkedIn Profile"></FancyLink>
       </div>
     </div>

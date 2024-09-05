@@ -1,24 +1,25 @@
 [
   {
     "id": 0,
-    "image": "/imgs/portfolio.jpg",
-    "title": "Portfolio Website",
+    "image": "/imgs/tgbot.png",
+    "title": "Telegram NFT Bot",
     "links": [
       {
         "id": 0,
+        "name": "Bot",
+        "url": "https://t.me/EarnNFTBot"
+      },
+      {
+        "id": 1,
         "name": "Code",
-        "url": "https://github.com/trashpirate/portfolio"
+        "url": "https://github.com/trashpirate/tg-nft-bot"
       }
     ],
-    "description": "My personal porfolio website hosted on Vercel.",
+    "description": "Multi-chain Telegram NFT notification bot configurable for multiple NFT collections to send notifications about mints and buys to different Telegram groups.",
     "tools": [
-      "TypeScript",
-      "NextJS",
-      "React",
-      "HTML",
-      "CSS"
+      "Python"
     ],
-    "dates": "OCT 2023"
+    "dates": "JUNE 2024"
   },
   {
     "id": 1,
@@ -36,12 +37,12 @@
         "url": "https://github.com/trashpirate/pgenz-nft-contract"
       },
       {
-        "id": 2,
+        "id": 3,
         "name": "Code (Frontend)",
         "url": "https://github.com/trashpirate/pgenz-nft-dapp"
       }
     ],
-    "description": "The PGENZ Collection is part of the PigeonPark crypto project on Ethereum. As a freelancer, I developed the nft smart contract including randomization, whitelisting, and extandable nft collection as well as the minting app.",
+    "description": "The PGENZ Collection is part of the PigeonPark crypto project on Ethereum. As a freelancer, I developed the nft smart contract including randomization, whitelisting, and extendable nft collection as well as the minting app.",
     "tools": [
       "Solidity",
       "TypeScript",
@@ -108,7 +109,7 @@
         "url": "https://github.com/trashpirate/liquid-dapp"
       }
     ],
-    "description": "Smart contract inheriting from ERC721A with a USDC minting fee on Base chain including full deployment/testing suite using Foundry.",
+    "description": "NFT Collection including development, testing, and deployment of a smart contract inheriting from ERC721A with a USDC minting fee on Base chain as well as design and development of associated minting DApp.",
     "tools": [
       "Solidity",
       "TypeScript",
